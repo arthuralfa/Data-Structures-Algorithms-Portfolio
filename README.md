@@ -1,5 +1,7 @@
 # Data Structures & Advanced Algorithms (C)
 
+This repository contains core implementations and projects developed for the **Data Structures and Algorithms** course. It focuses on memory management, algorithm efficiency, and complex logic solving # Data Structures & Advanced Algorithms (C)
+
 This repository contains core implementations and projects developed for the **Data Structures and Algorithms** course. It focuses on memory management, algorithm efficiency, and complex logic solving using C.
 
 ## 📘 Overview
@@ -15,11 +17,11 @@ Each folder contains a standalone project addressing specific challenges in comp
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/iancarlosct/Projetos-Estrutura-de-Dados.git](https://github.com/iancarlosct/Projetos-Estrutura-de-Dados.git)
+   git clone [https://github.com/arthuralfa/Data-Structures-Algorithms-Portfolio.git](https://github.com/arthuralfa/Data-Structures-Algorithms-Portfolio.git)
 2. **Standard C Projects:**
 
    ```bash
-   cd Projetos-Estrutura-de-Dados/(foldername)
+   cd Data-Structures-Algorithms-Portfolio/(foldername)
    gcc (mainfilename).c -o main
    ./main
    ```
@@ -34,11 +36,9 @@ Each folder contains a standalone project addressing specific challenges in comp
 Developed as part of the 
 computer engineering curriculum to:
 
-Master low-level memory management and pointers in C.
-
-Explore efficient implementations of classical data structures.
-
-Analyze algorithmic complexity and performance in practice.
+* Master low-level memory management and pointers in C.
+* Explore efficient implementations of classical data structures.
+* Analyze algorithmic complexity and performance in practice.
 
 🤝 Contributing
 Feel free to fork the repository, make improvements, and submit a pull request.
