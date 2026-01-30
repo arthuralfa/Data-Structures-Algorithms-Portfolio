@@ -1,50 +1,46 @@
-# Projetos-Estrutura-de-Dados
+# Data Structures & Advanced Algorithms (C)
 
-# Data Structures Projects
-
-This repository contains implementations and projects of various **data structures in C**, created for study and practice purposes.
+This repository contains core implementations and projects developed for the **Data Structures and Algorithms** course. It focuses on memory management, algorithm efficiency, and complex logic solving using C.
 
 ## 📘 Overview
 
-Each folder includes a project related to a specific data structure or algorithm, such as:
+Each folder contains a standalone project addressing specific challenges in computer science:
 
-* **Red-Black Tree** – self-balancing binary search tree.
-* **Huffman Coding** – compression algorithm using binary trees.
-* **SAT Solver** – prototype of a Boolean satisfiability solver.
-* **Counting and Plotting** – data processing and analysis project.
+* **SAT Solver** – A Boolean satisfiability solver prototype using propositional logic and heuristics.
+* **Huffman Coding** – A full data compression tool using frequency-based binary trees and bit manipulation.
+* **Red-Black Tree** – A self-balancing binary search tree implementation, ensuring $O(\log n)$ operations.
+* **Counting and Plotting** – Data processing and complexity analysis with visual plotting.
 
 ## ⚙️ How to Run
 
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/iancarlosct/Projetos-Estrutura-de-Dados.git
-   ```
-2. Enter a project folder:
+   git clone [https://github.com/iancarlosct/Projetos-Estrutura-de-Dados.git](https://github.com/iancarlosct/Projetos-Estrutura-de-Dados.git)
+2. **Standard C Projects:**
 
    ```bash
    cd Projetos-Estrutura-de-Dados/(foldername)
-   ```
-3. Compile and run:
-
-   ```bash
    gcc (mainfilename).c -o main
    ./main
+   ```
+3. Huffman (using makefile):
 
-   //for huffman we use makefile to run it:
-
+   ```bash
    make
    ./build/main
    ```
 
-## 🎯 Purpose
+🎯 Academic Purpose
+Developed as part of the 
+computer engineering curriculum to:
 
-* Practice and learn about classical data structures.
-* Explore efficient implementations in C.
-* Serve as reference or teaching material for students.
+Master low-level memory management and pointers in C.
 
-## 🤝 Contributing
+Explore efficient implementations of classical data structures.
 
+Analyze algorithmic complexity and performance in practice.
+
+🤝 Contributing
 Feel free to fork the repository, make improvements, and submit a pull request.
 
 ## 🧾 License
